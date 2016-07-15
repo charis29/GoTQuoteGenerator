@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Thrones Character Quote Generator</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <meta property="og:url" content="http://gotquotemachine.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Game of Thrones Character Quote Generator" />
+</head>
+
+<body id="main">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <h1>Game of Thrones Character Quote Generator</h1>
+    <div id="quoteArea">
+        <div class="quote">
+            <span><b>Character: </b></span>
+            <span id="character"></span>
+            <br>
+            <br>
+            <span><b>Quote: </b></span>
+            <span id="charQuote"></span>
+            <br>
+            <div id="btmalign">
+                <p>*to post to Facebook, highlight the quote and a button to post will appear</p>
+                <button id="getQuote">Get New Quote</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="buttons">
+        <a id="tweet" target="_blank" href="https://twitter.com/intent/tweet?hashtags=gameofthrones&via=dblj29&url=http://gotquotemachine.com"><div style="height: 30px; width: 76px; background-image: url('https://static.addtoany.com/images/blog/tweet-button-2015.png'); background-size: 76px;"></div></a>
+        <a class="tumblr-share-button" data-color="blue" data-notes="right" href="https://embed.tumblr.com/share"></a>
+        <script>
+            ! function (d, s, id) {
+                var js, ajs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://secure.assets.tumblr.com/share-button.js";
+                    ajs.parentNode.insertBefore(js, ajs);
+                }
+            }(document, "script", "tumblr-js");
+        </script>
+    </div>
+    <div class="fb-quote"></div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

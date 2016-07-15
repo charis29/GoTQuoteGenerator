@@ -1,0 +1,71 @@
+#main {
+    font-family: Arial;
+    background-image: url('http://wallpapercave.com/wp/NoqcEgG.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#quoteArea {
+    background-color: lightgrey;
+    height: 150px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 10px;
+    position: relative;
+}
+
+#getQuote {
+    background-color: grey;
+    float: right;
+    margin-top: -20px;
+    position: absolute;
+    bottom: -2px;
+    right: -134px;
+}
+
+.quote {
+    height: 150px;
+    position: relative;
+}
+
+#twitter {
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+#tweet {
+    height: 26px;
+    width: 76px;
+    margin-right: 10px;
+}
+
+.buttons {
+    height: 35px;
+    width: 155px;
+    margin-left: 735px;
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#btmalign {
+    margin-top: 80px;
+    position: absolute;
+    bottom: 10px;
+}
